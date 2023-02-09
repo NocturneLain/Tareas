@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora_Estaciones</title>
+    </head>
+    <script type ="text/javascript">
+        //BIENVENIDOS A LA CALCULADORA DE ESTACIONES. 
+        //Input para pedir el numero de mes y leerlo en la variable "mes".
+        var mes = prompt("Ingrese el numero del mes: ");
+        //nonprotect
+        while(parseInt(mes)==isNaN)
+        {
+            alert("el tipo de dato introducido fue: ")
+            mes = prompt("Ingrese el numero de mes de nuevo: ")
+        }
+        //después de leido, comenzamos usando la condicional if / else, para saber que número de mes se ingreso y de esa manera poder mostrar la estación. 
+        
+        if (mes >=1 && mes <=12)
+        {
+            if(mes == 12 || mes == 1 || mes == 2)//si mes es igual a 12 ó igual a 1 ó igual a 2, esto indica que si se cumple al menos una condición se ejecutara el alert dentro, si no pasara a comparar el siguiente if. 
+            {
+                alert("Es Invierno");
+            }
+            if(mes == 3 || mes == 4 || mes == 5)
+            {
+                alert("Es primavera");
+            }
+            if(mes == 6 || mes == 7 || mes == 8)
+            {
+                alert("Es verano");
+            }
+            if(mes == 9 || mes == 10 || mes == 11)
+            {
+                alert("Es otoño");
+            }
+        }else
+        {
+            alert("dato invalido"); //si no se ingreso ningun número en la condicional primaria if (mes >=1 && mes <=12), entonces saldra del condicional, y mostrara "dato invalido", tambien terminará el programa.
+        }   
+        alert("Sandra Roman / Carnet 23003520"); // antes de finalizar mostrare esta alert con mi informacion. 
+    </script>
+</html>
