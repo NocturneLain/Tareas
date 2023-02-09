@@ -43,4 +43,4 @@ hasta llegar al mes 11, ya que el mes 12 esta condicionado en el primer if, por 
 y tambien fuera del if principal y su else, coloque un alert diciendo "mi nombre y carnet" como indicado en la tarea.*
 
 *Eso fue todo el proceso resumido, aca hay un link a la referencia del código subido a Github en el repositorio Tareas clic en:*
-[*MI CODIGO*](https://https://github.com/NocturneLain/Tareas)
+[*MI CODIGO*](Calculadora_Estaciones_23003520.html)
