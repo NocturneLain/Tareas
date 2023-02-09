@@ -42,5 +42,5 @@ se hace referencia a los meses marzo, abril y mayo que son meses de primavera, y
 hasta llegar al mes 11, ya que el mes 12 esta condicionado en el primer if, por ultimo fuera de todos los if y else, 
 y tambien fuera del if principal y su else, coloque un alert diciendo "mi nombre y carnet" como indicado en la tarea.*
 
-*Eso fue todo el proceso resumido, aca hay un link a la referencia del código subido a Github clic en:*
-[*MI CODIGO*](https://github.com/JeannetheRoman/tareas/blob/master/Calculadora_Estaciones.js)
+*Eso fue todo el proceso resumido, aca hay un link a la referencia del código subido a Github en el repositorio Tareas clic en:*
+[*MI CODIGO*](https://https://github.com/NocturneLain/Tareas)
